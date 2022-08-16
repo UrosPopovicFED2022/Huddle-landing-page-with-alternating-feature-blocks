@@ -1,0 +1,58 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 10px;
+  @media (max-width: 1440px) {
+    max-width: 1100px;
+    margin-inline: auto;
+    padding: 0 30px;
+  }
+  @media (max-width: 1100px) {
+    max-width: 1000px;
+  }
+  @media (max-width: 960px) {
+    max-width: 768px;
+  }
+  @media (max-width: 768px) {
+    max-width: 600px;
+  }
+}

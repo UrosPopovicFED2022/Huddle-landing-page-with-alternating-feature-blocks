@@ -1,0 +1,13 @@
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 160px;
+}
+
+.home__logo {
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+}
