@@ -1,7 +1,30 @@
-@mixin respond($breakpoint) {
-  @if $breakpoint==mobile {
+//Screen breakpoints
+@mixin devices($breakpoint) {
+  @if $breakpoint == desktop {
     @media only screen and (max-width: 1440px) {
       @content;
     }
   }
+
+  @if $breakpoint == tablet {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == mobile {
+    @media only screen and (min-width: 375px) {
+      @content;
+    }
+  }
+}
+
+// Style button
+@mixin StyleBtn {
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: $fw-bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

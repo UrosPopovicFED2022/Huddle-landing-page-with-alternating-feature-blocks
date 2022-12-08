@@ -1,25 +1,14 @@
-// Primary colors
+// Colors
+$clr-pink-button: hsl(322, 100%, 66%);
+$clr-normal-100: hsl(0, 0%, 100%);
+$clr-normal-200: hsl(193, 100%, 96%);
+$clr-dark-100: hsl(208, 11%, 55%);
+$clr-dark-200: hsl(192, 100%, 9%);
 
-$color-Pink: hsl(322, 100%, 66%);
+// Font-size
+$fs-base: 16px;
 
-// Neutral colors
-$color-white: #fff;
-$color-Very-Pale-Cyan: hsl(193, 100%, 96%);
-$color-Very-Dark-Cyan: hsl(192, 100%, 9%);
-$color-Grayish-Blue: hsl(208, 11%, 55%);
-
-// MEDIA QUERIES
-
-$laptop: 1440px;
-$mobile: 375px;
-
-// /* Extra small devices (phones, 600px and down) */
-// @media only screen and (max-width: 600px) {...}
-// /* Small devices (portrait tablets and large phones, 600px and up) */
-// @media only screen and (min-width: 600px) {...}
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px) {...}
-// /* Large devices (laptops/desktops, 992px and up) */
-// @media only screen and (min-width: 992px) {...}
-// /* Extra large devices (large laptops and desktops, 1200px and up) */
-// @media only screen and (min-width: 1200px) {...}
+// Font-weiht
+$fw-regular: 400;
+$fw-normal: 600;
+$fw-bold: 700;
